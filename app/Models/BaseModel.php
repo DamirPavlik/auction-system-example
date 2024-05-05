@@ -4,7 +4,7 @@ namespace app\Models;
 
 class BaseModel
 {
-    private readonly \mysqli $sql;
+    protected readonly \mysqli $sql;
     public function __construct()
     {
         $this->sql = mysqli_connect(
