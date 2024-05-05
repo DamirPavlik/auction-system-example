@@ -2,8 +2,10 @@
     "name": "damir/auction-system-exercise",
     "autoload": {
         "psr-4": {
-            "Damir\\AuctionSystemExercise\\": "src/"
+            "App\\": "app/"
         }
     },
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
 }
